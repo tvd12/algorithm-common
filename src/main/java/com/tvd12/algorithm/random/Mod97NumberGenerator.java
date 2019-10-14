@@ -71,7 +71,7 @@ public class Mod97NumberGenerator {
 		Random random = new Random();
 		long pow = (int) Math.pow(10, digistCount);
 		long A = beforeMod * pow;
-		long max = ((int) Math.pow(10, digistCount) + A - 1) / 97;
+		long max = (pow + A - 1) / 97;
 		long min = ((A - 1) / 97 + 1);
 		long bound = (max - min);
 		long m = random.nextInt((int) bound) + min;
