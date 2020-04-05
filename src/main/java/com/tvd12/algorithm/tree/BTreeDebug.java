@@ -661,19 +661,33 @@ public class BTreeDebug {
 ////		System.out.println(tree.find(7) == null ? "not found" : "found");
 //	}
 	
-	public static void main(String[] args) {
-		BTreeDebug tree = new BTreeDebug(7);
-		for(int i = 1 ; i <= 100 ; ++i)
-			tree.insert(i);
-		System.out.println(tree);
-//		System.out.println(tree.find(7) == null ? "not found" : "found");
-//		System.out.println("printTree: " + tree.printTree());
-		tree.delete(20);
-		tree.delete(21);
-		tree.delete(22);
+//	public static void main(String[] args) {
+//		BTreeDebug tree = new BTreeDebug(5);
+//		for(int i = 1 ; i <= 100 ; ++i)
+//			tree.insert(i % 15);
 //		System.out.println(tree);
-//		System.out.println(tree.find(7) == null ? "not found" : "found");
-	}
+////		System.out.println(tree.find(7) == null ? "not found" : "found");
+////		System.out.println("printTree: " + tree.printTree());
+//		tree.delete(1);
+//		tree.delete(2);
+//		tree.delete(2);
+//		tree.delete(2);
+//		tree.delete(3);
+////		System.out.println(tree.find(7) == null ? "not found" : "found");
+//	}
+	
+	public static void main(String[] args) {
+	BTreeDebug tree = new BTreeDebug(7);
+	for(int i = 1 ; i <= 100 ; ++i)
+		tree.insert(i);
+	System.out.println(tree);
+	//	System.out.println(tree.find(7) == null ? "not found" : "found");
+	//	System.out.println("printTree: " + tree.printTree());
+	tree.delete(20);
+	tree.delete(21);
+	tree.delete(22);
+	//	System.out.println(tree.find(7) == null ? "not found" : "found");
+}
 	
 //	public static void main(String[] args) {
 //		BTreeDebug tree = new BTreeDebug(3);
