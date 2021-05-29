@@ -4,23 +4,23 @@
 
 	<groupId>com.tvd12</groupId>
 	<artifactId>algorithm-common</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>algorithm-common</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.tvd12</groupId>
 			<artifactId>ezyfox-util</artifactId>
-			<version>1.1.2</version>
+			<version>1.1.6</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -46,7 +46,7 @@
 		<dependency>
 			<groupId>com.tvd12</groupId>
 			<artifactId>test-util</artifactId>
-			<version>1.0.0</version>
+			<version>1.1.0</version>
 		</dependency>
 	</dependencies>
 
